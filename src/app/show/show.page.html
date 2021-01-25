@@ -1,0 +1,26 @@
+<ion-content>
+  <ion-slides pager="true" [options]="slideOpts">
+    <ion-slide>
+      <div class="slide">
+        <img src="/assets/imgs/p1.png" />
+        <h2>Welcome</h2>
+        <p>Welcome to <b>browse and experience</b> our app!!!</p>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="/assets/imgs/p2.png" />
+      <h2>What is QQSS?</h2>
+      <p><b>This</b> is an app that can easily manage your home appliances</p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="/assets/imgs/p3.png" />
+      <h2>Ready to Play?</h2>
+      <ion-button fill="clear" style="color: rgb(94, 92, 92);" (click)="continue()">Continue <ion-icon slot="end"
+          name="arrow-forward">
+        </ion-icon>
+      </ion-button>
+    </ion-slide>
+  </ion-slides>
+</ion-content>

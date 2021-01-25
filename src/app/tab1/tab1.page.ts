@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-tab1',
@@ -7,6 +8,20 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
-  constructor() {}
-
+  constructor(private router: Router) { }
+  clickLight() {
+    this.router.navigate(['/light']);
+  }
+  clickHumidifier() {
+    this.router.navigate(['/humidifier']);
+  }
+  clickFan() {
+    this.router.navigate(['/fan']);
+  }
+  clickStove() {
+    this.router.navigate(['/stove']);
+  }
+  clickAir() {
+    this.router.navigate(['/air']);
+  }
 }

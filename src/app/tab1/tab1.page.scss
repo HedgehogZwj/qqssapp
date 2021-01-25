@@ -1,0 +1,52 @@
+.container {
+    max-width: 1000px;
+  }
+  .product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+  
+  }
+  
+  
+  /*
+   * Extra utilities
+   */
+  
+  .flex-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      -ms-flex: 1;
+      flex: 1;
+    }
+  }
+  
+  .overflow-hidden { overflow: hidden; }
+  
+  form{
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+  }
+  
+  .head{
+      height: 40vh;
+  }
+  
+  
+  
+  .bg1{
+      background-color: darkgray;
+  }
+  .bg2{
+      background-color: rgb(51, 47, 47);
+  }
+  .bg2-color{
+      color: white;
+  }
+  
+  

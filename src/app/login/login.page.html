@@ -1,0 +1,27 @@
+<ion-content [fullscreen]="true">
+  <div class="content">
+    <form [formGroup]="myForm">
+      <ion-toolbar class="title">
+        <ion-title size="small">使用账号登录</ion-title>
+      </ion-toolbar>
+      <div class="form-group">
+        <ion-label>用户名</ion-label>
+        <ion-input type="text" class="form-control input" id="userName" aria-describedby="输入用户名" name="userName"
+          [formControl]="userName">
+        </ion-input>
+        <!-- <div class="text">
+          提示：用户名是你名字缩写
+        </div> -->
+      </div>
+      <div class="form-group">
+        <ion-label>密码</ion-label>
+        <ion-input type="password" class="form-control input" id="password" name="password" [formControl]="password">
+        </ion-input>
+        <!-- <div class="text">
+          密码123456
+        </div> -->
+      </div>
+      <ion-button (click)="login()" class="button">登录</ion-button>
+    </form>
+  </div>
+</ion-content>

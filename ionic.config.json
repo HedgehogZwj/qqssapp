@@ -1,7 +1,8 @@
 {
-  "name": "myApp",
+  "name": "QQSS",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }

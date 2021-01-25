@@ -1,0 +1,65 @@
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+    }
+}
+
+.all-button{
+    height: 25px;
+    width: 35px;
+}
+
+form{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.all-button1{
+    height: 30px;
+    width: 50px;
+}
+
+.oc-button{
+    width: 60px;
+    height: 40px;
+}
+
+.big-form{
+    width:100%;
+}
+.size{
+    font-size: large;
+}
+
+.hide{
+    display: none;
+}
+
+input{
+    height: 35px;
+    width: 170px;
+    margin-top: 10px;
+}
+.page {
+    width: 100%;
+}
+
+ion-item{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.toggle{
+    text-align: right;
+}
